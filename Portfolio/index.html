@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhashni | Developer Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Background Effects -->
+    <div class="bg-blur blur-1"></div>
+    <div class="bg-blur blur-2"></div>
+
+    <!-- Navbar -->
+    <header class="header">
+        <nav class="navbar">
+
+            <a href="#" class="logo">
+                Dhashni<span>.</span>
+            </a>
+
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+
+                <button id="themeToggle" class="theme-btn">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+
+                <button id="menuBtn" class="menu-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+
+            </div>
+
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+
+        <div class="hero-content reveal">
+
+            <p class="hero-subtitle">
+                👋 Hello, I'm
+            </p>
+
+            <h1>
+                Dhashni
+            </h1>
+
+            <h2>
+                <span id="typing"></span>
+            </h2>
+
+            <p class="hero-description">
+                Passionate Computer Science student focused on
+                Full Stack Development, Java, Python, DSA,
+                and building modern web experiences.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary-btn">
+                    View Projects
+                </a>
+
+                <a href="resume.pdf" download class="btn secondary-btn">
+                    Download Resume
+                </a>
+            </div>
+
+            <div class="social-icons">
+
+                <a href="#">
+                    <i class="fab fa-github"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="hero-image reveal">
+
+            <div class="image-card">
+                <img src="profile.jpeg" alt="Profile Image">
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+
+        <div class="section-title reveal">
+            <h2>About Me</h2>
+            <span>Who I Am</span>
+        </div>
+
+        <div class="about-container reveal">
+
+            <div class="glass-card">
+
+                <h3>Student & Developer</h3>
+
+                <p>
+                    I am a Computer Science Engineering student with
+                    a strong interest in web development, software
+                    engineering, and problem-solving.
+                </p>
+
+                <p>
+                    I enjoy creating responsive websites,
+                    exploring modern technologies,
+                    and continuously improving my coding skills.
+                </p>
+
+            </div>
+
+            <div class="glass-card">
+
+                <h3>Education</h3>
+
+                <p>
+                    Bachelor of Engineering
+                </p>
+
+                <p>
+                    Computer Science & Engineering
+                </p>
+
+                <p>
+                    Expected Graduation: 2028
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+
+        <div class="section-title reveal">
+            <h2>Skills</h2>
+            <span>My Expertise</span>
+        </div>
+
+        <div class="skills-container">
+
+            <div class="skill-card reveal">
+                <i class="fab fa-html5"></i>
+                <h3>HTML5</h3>
+            </div>
+
+            <div class="skill-card reveal">
+                <i class="fab fa-css3-alt"></i>
+                <h3>CSS3</h3>
+            </div>
+
+            <div class="skill-card reveal">
+                <i class="fab fa-js"></i>
+                <h3>JavaScript</h3>
+            </div>
+
+            <div class="skill-card reveal">
+                <i class="fab fa-java"></i>
+                <h3>Java</h3>
+            </div>
+
+            <div class="skill-card reveal">
+                <i class="fab fa-python"></i>
+                <h3>Python</h3>
+            </div>
+
+            <div class="skill-card reveal">
+                <i class="fas fa-database"></i>
+                <h3>MySQL</h3>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+
+        <div class="section-title reveal">
+            <h2>Projects</h2>
+            <span>Featured Work</span>
+        </div>
+
+        <div class="projects-grid">
+
+            <div class="project-card reveal">
+
+                <img src="projects/project1.webp" alt="Project">
+
+                <div class="project-content">
+
+                    <h3>Smart Intrusion Deterrent Shield</h3>
+
+                    <p>
+                        IoT security project using ESP32,
+                        sensors and Blynk notifications.
+                    </p>
+
+                    <a href="#" class="project-btn">
+                        View More
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="project-card reveal">
+
+                <img src="projects/project2.jpeg" alt="Project">
+
+                <div class="project-content">
+
+                    <h3>Landing Page</h3>
+
+                    <p>
+                        Modern responsive landing page
+                        with smooth animations.
+                    </p>
+
+                    <a href="#" class="project-btn">
+                        View More
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="project-card reveal">
+
+                <img src="projects/project3.png" alt="Project">
+
+                <div class="project-content">
+
+                    <h3>Calculator App</h3>
+
+                    <p>
+                        Interactive calculator built using
+                        HTML, CSS and JavaScript.
+                    </p>
+
+                    <a href="#" class="project-btn">
+                        View More
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+
+        <div class="section-title reveal">
+            <h2>Contact</h2>
+            <span>Let's Connect</span>
+        </div>
+
+        <div class="contact-container reveal">
+
+            <div class="glass-card">
+
+                <p>
+                    <i class="fas fa-envelope"></i>
+                    dhashtest@gmail.com
+                </p>
+
+                <p>
+                    <i class="fas fa-phone"></i>
+                    +91 9876543210
+                </p>
+
+                <p>
+                    <i class="fas fa-location-dot"></i>
+                    Chennai, India
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            © 2026 Dhashni. All Rights Reserved.
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
