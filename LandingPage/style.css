@@ -212,15 +212,22 @@ body.dark-theme .nav-link.active-link {
 
 .hamburger {
     display: none;
+    position: relative;
+    align-items: center;
+    justify-content: center;
 }
 
 .hamburger-bar {
-    display: block;
-    width: 20px;
+    display: none;
+}
+
+.hamburger::before {
+    content: "";
+    width: 22px;
     height: 2px;
-    background: var(--text);
-    margin: 4px auto;
     border-radius: 99px;
+    background: var(--text);
+    box-shadow: 0 -7px 0 var(--text), 0 7px 0 var(--text);
 }
 
 /* ===================== Mobile Sidebar ===================== */
