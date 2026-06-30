@@ -134,7 +134,6 @@ Through these projects, I gained practical experience in:
 👤 Author
 
 Dhashni S
-
 Web Development Intern at CodSoft
 
 Aspiring Software Developer passionate about building user-friendly web applications and continuously expanding expertise in modern web technologies.
