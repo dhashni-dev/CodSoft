@@ -134,9 +134,10 @@ Through these projects, I gained practical experience in:
 👤 Author
 
 Dhashni S
+
 Web Development Intern at CodSoft
 
 Aspiring Software Developer passionate about building user-friendly web applications and continuously expanding expertise in modern web technologies.
 
-- GitHub: [Add GitHub Profile]
+- GitHub: https://github.com/dhashni-dev
 - LinkedIn: https://www.linkedin.com/in/dhashni-s-87b59932b?utm_source=share_via&utm_content=profile&utm_medium=member_android
